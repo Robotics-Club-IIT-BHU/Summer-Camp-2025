@@ -1,0 +1,202 @@
+[0.010s] Invoking command in '/home/masudvm/camp/build/camp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/masudvm/camp -DCMAKE_INSTALL_PREFIX=/home/masudvm/camp/install/camp
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.231s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.287s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.287s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.367s] -- Detecting CXX compile features
+[0.368s] -- Detecting CXX compile features - done
+[0.371s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.492s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.563s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.603s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.608s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.614s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.678s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.743s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.763s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.798s] -- Looking for pthread.h
+[0.852s] -- Looking for pthread.h - found
+[0.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.900s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.900s] -- Found Threads: TRUE  
+[0.932s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.934s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.009s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.020s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.021s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.021s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.023s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.037s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.057s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.067s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[1.069s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.127s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.132s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.132s] -- Configured cppcheck include dirs: 
+[1.132s] -- Configured cppcheck exclude dirs and/or files: 
+[1.136s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.136s] -- Configured cpplint exclude dirs and/or files: 
+[1.137s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.138s] -- Added test 'lint_cmake' to check CMake code style
+[1.139s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.144s] -- Added test 'uncrustify' to check C / C++ code style
+[1.144s] -- Configured uncrustify additional arguments: 
+[1.145s] -- Added test 'xmllint' to check XML markup files
+[1.146s] -- Configuring done
+[1.151s] -- Generating done
+[1.154s] -- Build files have been written to: /home/masudvm/camp/build/camp
+[1.169s] Invoked command in '/home/masudvm/camp/build/camp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/masudvm/camp -DCMAKE_INSTALL_PREFIX=/home/masudvm/camp/install/camp
+[1.172s] Invoking command in '/home/masudvm/camp/build/camp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/masudvm/camp/build/camp -- -j4 -l4
+[1.199s] Invoked command in '/home/masudvm/camp/build/camp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/masudvm/camp/build/camp -- -j4 -l4
+[1.204s] Invoking command in '/home/masudvm/camp/build/camp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/masudvm/camp/build/camp
+[1.208s] -- Install configuration: ""
+[1.208s] -- Installing: /home/masudvm/camp/install/camp/share/camp//launch
+[1.208s] -- Installing: /home/masudvm/camp/install/camp/share/camp//launch/gazebo.launch.py
+[1.209s] -- Installing: /home/masudvm/camp/install/camp/share/camp//launch/visualize.launch.py
+[1.209s] -- Installing: /home/masudvm/camp/install/camp/share/camp//launch/maze_navigation.launch.py
+[1.209s] -- Installing: /home/masudvm/camp/install/camp/share/camp//launch/visualize.launch
+[1.210s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models
+[1.210s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/table
+[1.210s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/table/model-1_4.sdf
+[1.210s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/table/model-1_2.sdf
+[1.210s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/table/model.sdf
+[1.210s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/table/model.config
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/table/model-1_3.sdf
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2/materials
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2/materials/scripts
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2/materials/scripts/aruco_marker_2_marker.material
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2/materials/textures
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2/materials/textures/aruco_mark_2.png
+[1.211s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2/model.sdf
+[1.212s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_2/model.config
+[1.212s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ball_pink
+[1.212s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ball_pink/model.sdf
+[1.212s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ball_pink/model.config
+[1.212s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_green
+[1.212s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_green/model.sdf
+[1.213s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_green/model.config
+[1.213s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_yellow
+[1.213s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_yellow/model.sdf
+[1.213s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_yellow/model.config
+[1.213s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model
+[1.213s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/materials
+[1.213s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/materials/textures
+[1.214s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/materials/textures/realsense_diffuse.jpg
+[1.214s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/materials/textures/spotlight.jpg
+[1.215s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/model.urdf
+[1.215s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/model.sdf
+[1.216s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/model.config
+[1.216s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes
+[1.216s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/realsense.dae
+[1.217s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/VLP16_base_1.dae
+[1.220s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/spotlight.dae
+[1.220s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/VLP16_base_2.dae
+[1.222s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/base_link.dae
+[1.227s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/bumper.dae
+[1.227s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/top_plate.dae
+[1.227s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/VLP16_scan.dae
+[1.228s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/jpl04_arch_nosensor.stl
+[1.229s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/top_chassis.dae
+[1.233s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/user_rail.dae
+[1.235s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/meshes/wheel.dae
+[1.247s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/thumbnails
+[1.247s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/thumbnails/4.jpg
+[1.247s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/thumbnails/1.jpg
+[1.247s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/thumbnails/2.jpg
+[1.248s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/husky_robot_model/thumbnails/3.jpg
+[1.248s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4
+[1.248s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4/materials
+[1.249s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4/materials/scripts
+[1.249s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4/materials/scripts/aruco_marker_4_marker.material
+[1.249s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4/materials/textures
+[1.249s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4/materials/textures/aruco_mark_4.png
+[1.249s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4/model.sdf
+[1.249s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_4/model.config
+[1.249s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ground_plane
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ground_plane/model-1_4.sdf
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ground_plane/model-1_2.sdf
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ground_plane/model.sdf
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ground_plane/model.config
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/ground_plane/model-1_3.sdf
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/world1
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/world1/model.sdf
+[1.250s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/world1/model.config
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3/materials
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3/materials/scripts
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3/materials/scripts/aruco_marker_3_marker.material
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3/materials/textures
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3/materials/textures/aruco_mark_3.png
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3/model.sdf
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_3/model.config
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0/materials
+[1.251s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0/materials/scripts
+[1.252s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0/materials/scripts/aruco_marker_0_marker.material
+[1.252s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0/materials/textures
+[1.252s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0/materials/textures/aruco_mark_0.png
+[1.252s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0/model.sdf
+[1.252s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_0/model.config
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1/materials
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1/materials/scripts
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1/materials/scripts/aruco_marker_1_marker.material
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1/materials/textures
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1/materials/textures/aruco_mark_1.png
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1/model.sdf
+[1.253s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/aruco_marker_1/model.config
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sample_world
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sample_world/model.sdf
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sample_world/model.config
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_red
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_red/model.sdf
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_red/model.config
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sun
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sun/model-1_4.sdf
+[1.254s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sun/model-1_2.sdf
+[1.255s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sun/model.sdf
+[1.255s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sun/model.config
+[1.255s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/sun/model-1_3.sdf
+[1.256s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_blue
+[1.256s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_blue/model.sdf
+[1.257s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_blue/model.config
+[1.257s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_purple
+[1.257s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_purple/model.sdf
+[1.257s] -- Installing: /home/masudvm/camp/install/camp/share/camp//models/box_purple/model.config
+[1.258s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds
+[1.258s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/sample_world.sdf
+[1.260s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/maze.sdf
+[1.260s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/sample_world.world
+[1.260s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/maze
+[1.261s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/maze/model.sdf
+[1.261s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/maze/model.config
+[1.261s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/world1.world
+[1.262s] -- Installing: /home/masudvm/camp/install/camp/share/camp//worlds/maze.world
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/package.xml
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/ament_index/resource_index/package_run_dependencies/camp
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/ament_index/resource_index/parent_prefix_path/camp
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/environment/ament_prefix_path.sh
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/environment/ament_prefix_path.dsv
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/environment/path.sh
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/environment/path.dsv
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/local_setup.bash
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/local_setup.sh
+[1.263s] -- Installing: /home/masudvm/camp/install/camp/share/camp/local_setup.zsh
+[1.264s] -- Installing: /home/masudvm/camp/install/camp/share/camp/local_setup.dsv
+[1.264s] -- Installing: /home/masudvm/camp/install/camp/share/camp/package.dsv
+[1.264s] -- Installing: /home/masudvm/camp/install/camp/share/ament_index/resource_index/packages/camp
+[1.264s] -- Installing: /home/masudvm/camp/install/camp/share/camp/cmake/campConfig.cmake
+[1.264s] -- Installing: /home/masudvm/camp/install/camp/share/camp/cmake/campConfig-version.cmake
+[1.264s] -- Up-to-date: /home/masudvm/camp/install/camp/share/camp/package.xml
+[1.267s] Invoked command in '/home/masudvm/camp/build/camp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/masudvm/camp/build/camp

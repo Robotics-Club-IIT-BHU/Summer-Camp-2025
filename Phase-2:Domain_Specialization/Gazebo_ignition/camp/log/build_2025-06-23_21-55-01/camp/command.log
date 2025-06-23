@@ -1,0 +1,6 @@
+Invoking command in '/home/masudvm/camp/build/camp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/masudvm/camp -DCMAKE_INSTALL_PREFIX=/home/masudvm/camp/install/camp
+Invoked command in '/home/masudvm/camp/build/camp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/masudvm/camp -DCMAKE_INSTALL_PREFIX=/home/masudvm/camp/install/camp
+Invoking command in '/home/masudvm/camp/build/camp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/masudvm/camp/build/camp -- -j4 -l4
+Invoked command in '/home/masudvm/camp/build/camp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/masudvm/camp/build/camp -- -j4 -l4
+Invoking command in '/home/masudvm/camp/build/camp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/masudvm/camp/build/camp
+Invoked command in '/home/masudvm/camp/build/camp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/masudvm/camp/build/camp
